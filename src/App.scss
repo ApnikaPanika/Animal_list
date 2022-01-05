@@ -1,0 +1,38 @@
+body {
+    background-image: url(https://st2.depositphotos.com/3246087/7582/v/600/depositphotos_75828489-stock-illustration-giraffes-family-seamless-pattern-safari.jpg);
+    margin: 10px;
+}
+
+.Form__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.add__animal__container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.add__animal__button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(23, 115, 177);
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.9;
+        transition: 0.3s;
+    }
+}

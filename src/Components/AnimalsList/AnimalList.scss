@@ -1,0 +1,42 @@
+.animal__photo{
+    max-width: 300px;
+}
+
+.animal__card{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    max-width: 320px;
+    padding: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 4px ;
+    overflow-wrap: break-word;
+}
+
+.animal__card__text{
+    overflow-wrap: break-word;
+    max-width: 300px;
+    margin: 3px;
+}
+
+.species__button__container{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.species__filter__button, .delete__animal__button{
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(23, 115, 177);
+    padding: 5px 10px;
+
+    &:hover{
+        opacity: 0.9;
+        transition: 0.3s;
+    }
+}
+
