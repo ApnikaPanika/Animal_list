@@ -2,11 +2,9 @@
 
 ![AnimalsGIF](./public/GIF/AnimalsListGIF.gif)
 
-If you want to test it yourself <a href="https://admiring-hawking-efdf90.netlify.app/">Click here</a>
+If you want to test it yourself <a href="https://admiring-hawking-efdf90.netlify.app/" target="_blank">Click here</a>
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is very simple animals list app, created in React.js framework. 
 
 ## Available Scripts
 
@@ -45,8 +43,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
