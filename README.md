@@ -2,7 +2,7 @@
 
 ![AnimalsGIF](./public/GIF/AnimalsListGIF.gif)
 
-
+If you want to test it yourself <a href="https://admiring-hawking-efdf90.netlify.app/">Click here</a>
 
 # Getting Started with Create React App
 
