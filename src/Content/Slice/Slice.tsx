@@ -6,7 +6,7 @@ const getStoragedAnimals = () => {
   const animalsList = localStorage.getItem('storagedAnimals');
   if (animalsList) {
     return JSON.parse(animalsList);
-  } return null;
+  } return [];
 };
 
 const initialState: AnimalInfo[] = getStoragedAnimals();

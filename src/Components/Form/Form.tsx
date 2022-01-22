@@ -35,10 +35,10 @@ const Form:FC<Props> = ({ setShowForm }) => {
   const speciesList: string[] = [];
 
   animalsList.map((animal) => {
-    if (speciesList.includes(animal.species)) {
-      return null;
+    if (speciesList.includes(animal.species) === false) {
+      return speciesList.push(animal.species);
     }
-    return speciesList.push(animal.species);
+    return null;
   });
 
   const addSpecies = (e:React.MouseEvent) => {
