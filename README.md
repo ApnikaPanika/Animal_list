@@ -27,4 +27,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+<br/>
 
+Hope you enjoy,
+Toms <img src="https://cdn-icons-png.flaticon.com/512/742/742751.png" width="18" height="18"/>
